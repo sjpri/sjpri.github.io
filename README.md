@@ -11,7 +11,7 @@ Before I started school, I made a list of goals for myself, that included gettin
 
 ## **Code Review**
  
-For the Software Engineering/Design category, I intend on using the Zoo Monitoring System project I completed in Foundation in Application Development (IT 145). The project will display the fundamentals of object-oriented programming for software development with the implementation of appropriate variables, operators, methods, classes, and appropriate syntax. My original program does not match the pseudocode below, that shows two classes, but the program shows three. I decided to add a class for the main menu, because it made testing the animal and habitat classes easier, without having to type a great deal of code. I plan on writing the code in C++, mainly because it is a language I have been experiencing most recently.
+For the Software Engineering/Design category, I intend on using the [Zoo Monitoring System](https://github.com/sjpri/sjpri.github.io/tree/main/Zoo%20monitoring%20system-%20Original%20artifact) project I completed in Foundation in Application Development (IT 145). The project will display the fundamentals of object-oriented programming for software development with the implementation of appropriate variables, operators, methods, classes, and appropriate syntax. My original program does not match the pseudocode below, that shows two classes, but the program shows three. I decided to add a class for the main menu, because it made testing the animal and habitat classes easier, without having to type a great deal of code. I plan on writing the code in C++, mainly because it is a language I have been experiencing most recently.
 
 Class Monitoring System
   
@@ -181,4 +181,5 @@ Function animal:
 
 The Zoo Monitoring System from the Foundation in Application Development is the perfect opportunity to introduce the skills I developed in the Introduction to SQL course, by creating datasets triggered by the program to INSERT INTO, SHOW, and DELETE rows from the table. With the implementation of a proper database, the processing query is faster and more efficient, high portable, with multiple data views, that is scalable as the business grows. I am not expectin my program to be perfect, but if all of the enhancements are fulfilled the program will demonstrate my ability to problem solve while using the skills developed during the previous courses. The courses were a great introduction to the different subjects, the biggest challenge I can oversee is the fact that it has been a while since I have taken the couses, I am pretty confident I will need to revisit both my files and do additional research to accomplish the outcome I am looking for. My biggest concern at the moment includes questioning whether the proposed changes are enough to meet the crieterias set out for the final project. 
 
-### **Enhancement One: Software Design and Engineering**
+### **Enhancement One:** Software Design and Engineering
+
