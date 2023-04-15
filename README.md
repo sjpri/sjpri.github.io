@@ -39,23 +39,39 @@ Function habitat:
         IF abnormal detected
 	
             DISPLAY warning dialog
+	    
         ENDIF
+	
     ENDWHILE
+    
     WHILE user select return to original menu
+    
         CONNECT to the original menu
         
+	
 Function animal:
+
     PROMPT user for animal choice
+    
     READ user input
+    
     OPEN animal file
+    
     WHILE not at end of file
-	        DISPLAY animal detail
-	        IF abnormal detected
-		        DISPLAY warning dialog	
-	        ENDIF
+    
+        DISPLAY animal detail
+	
+            IF abnormal detected
+
+                DISPLAY warning dialog	
+
+            ENDIF
+    
     ENDWHILE
+    
     WHILE user select return to original menu
-        CONNECT to the original menu
+        
+	CONNECT to the original menu
         
 Function exit:
 
@@ -64,57 +80,105 @@ I intend on continue improving the Zoo Monitoring System from the Foundation in 
 Class Monitoring System
 
 Function main:
+
     CALL habitat
+    
     CALL animal
+    
     CALL exit
     
 Function habitat:
+    
     PROMPT user for habitat choice
+    
     PROMPT user to add habitat
+    
     PROMPT user to delete existing habitat
+    
     READ user input
+    
     OPEN animal file
+    
     WHILE not at end of file
-	        DISPLAY animal details
-            IF abnormal detected
-		                DISPLAY warning dialog
-            ENDIF
+        
+	DISPLAY animal details
+            
+	    IF abnormal detected
+
+                DISPLAY warning dialog
+            
+	    ENDIF
+    
     ENDWHILE
+    
     WHILE user select return to original menu
-        CONNECT to the original menu
+        
+	CONNECT to the original menu
+    
     WHILE user selects ADD or REMOVE habitat
-	        IF add habitat
-	            PROMPT user for habitat name
-            	CREATE new habitat in database	
-        	ENDIF
-	        IF remove habitat
-	            PROMPT user for habitat name
-	            REMOVE habitat from database
-        	ENDIF
+	        
+        IF add habitat
+            
+	    PROMPT user for habitat name
+            
+	    CREATE new habitat in database	
+
+        ENDIF
+
+        IF remove habitat
+
+            PROMPT user for habitat name
+
+            REMOVE habitat from database
+
+        ENDIF
+    
     ENDWHILE
     
 Function animal:
+
     PROMPT user for animal choice, add or remove animal
+    
     READ user input
+    
     OPEN animal file
+    
     WHILE not at end of file
-        	DISPLAY animal detail
-            	IF abnormal detected
-		                DISPLAY warning dialog	
-	            ENDIF
+
+        DISPLAY animal detail
+            
+	    IF abnormal detected
+
+                DISPLAY warning dialog	
+
+            ENDIF
+    
     ENDWHILE
+    
     WHILE user input is add or remove
-	        IF add animal
-        	PROMPT user for animal details
-        	CREATE new entry for animal
-        	ENDIF
-	        IF remove animal
-	            PROMPT user for animal name to be removed
-	            REMOVE entry for animal
-        	ENDIF
-	    ENDWHILE
+
+        IF add animal
+
+            PROMPT user for animal details
+
+            CREATE new entry for animal
+
+        ENDIF
+
+        IF remove animal
+
+            PROMPT user for animal name to be removed
+
+            REMOVE entry for animal
+
+        ENDIF
+
+    ENDWHILE
+    
     WHILE user select return to original menu
+
         CONNECT to the original menu
+
 Function exit:
 
 The Zoo Monitoring System from the Foundation in Application Development is the perfect opportunity to introduce the skills I developed in the Introduction to SQL course, by creating datasets triggered by the program to INSERT INTO, SHOW, and DELETE rows from the table. With the implementation of a proper database, the processing query is faster and more efficient, high portable, with multiple data views, that is scalable as the business grows. 
