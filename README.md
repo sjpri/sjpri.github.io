@@ -189,7 +189,9 @@ The original Zoo Monitoring System artifact was developed in March of 2022, it w
 
 ### **Enhancement Two:** Algorithms and Data Structure
 
+[Zoo Monitoring System: Algorithms and Data Structures](https://github.com/sjpri/sjpri.github.io/tree/main/Algorithms%20and%20Data%20Structure/improvedZooMonitor_DataStructures)
 
+I worked very hard on the improved zoo monitor project, in addition to juggling working, school and two children, I had to focus a lot of my time in working on a presentation for the software development opportunity that presented itself at work. I re-worked on the project and feel like it is much closer to completion. I focused on the project’s structure; I created a flowchart as I was having a hard time visualizing how the program should be organized. I created new functions for the main menu, the animals, and habitats. I had issues with the main menu being displayed twice, and I was able to fiund and remedy the repeated behavior. I was also able to properly have the menus loop through repeating themselves or navigating back to the main menu.
 
 ### **Enhancement Three:** Databases
 
