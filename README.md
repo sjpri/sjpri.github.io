@@ -2,7 +2,7 @@
 
 This repository documents my procedures for developing my ePortfolio as the CS-499 Computer Science Capstone course final project to showcases my unique abilities and talents as one of the best visual communication tools to demonstrate my value to potential employers. The content of the ePortfolio is a solid starting point to clear ideas that showcase my skills across the key fields of Computer Science. The included artifact was previously developed in the Computer Science Program at Southern New Hampshire University and it represents my growth in the key categories of software design/engineering, algorithms and data structures, and databases.
 
-## **Professional Self-Assessements**
+## **Professional Self-Assessement**
 
 I enrolled for my Computer Science degree in October of 2018, my goal was to be able to complete all the required courses in four years, so I have been working hard, only taking a single term off, and as a result, I am happy to say I will be done with my courses in October 2023. The program has been incredibly challenging for a wide number of reasons, including time management, learning, and understanding the different subjects every two months have kept me in my toes, and taught me to learn to be comfortable being uncomfortable. With every new course, a new challenge arises, it felt like I was missing something, as I was not following what a lot of the courses were referring to in the first few weeks, and that taught me how to research different topics and take charge of my own learning, by diversifying my resources and being open minded about problem solving. I decided to pursue my bachelor’s degree in computer science later in life when compared to the average person, and this is my second attempt in pursuing higher education. The first time was around fourteen years ago, I enrolled in a Community College looking to get an associate degree in software development. After my first semester in school, I found out I was pregnant and I could not afford school and a new baby, so I gave up going to school. 
 
@@ -13,21 +13,32 @@ Before I started school, I made a list of goals for myself, that included gettin
  
 For the Software Engineering/Design category, I intend on using the Zoo Monitoring System project I completed in Foundation in Application Development (IT 145). The project will display the fundamentals of object-oriented programming for software development with the implementation of appropriate variables, operators, methods, classes, and appropriate syntax. My original program does not match the pseudocode below, that shows two classes, but the program shows three. I decided to add a class for the main menu, because it made testing the animal and habitat classes easier, without having to type a great deal of code. I plan on writing the code in C++, mainly because it is a language I have been experiencing most recently.
 
-    Class Monitoring System
+Class Monitoring System
   
 Function main:
+
     CALL habitat
+    
     CALL animal
+    
     CALL exit
     
+    
 Function habitat:
+
     PROMPT user for habitat choice
+
     READ user input
+    
     OPEN animal file
+    
     WHILE not at end of file
-	   DISPLAY animal details
+    
+        DISPLAY animal details
+	
         IF abnormal detected
-		        DISPLAY warning dialog
+	
+            DISPLAY warning dialog
         ENDIF
     ENDWHILE
     WHILE user select return to original menu
