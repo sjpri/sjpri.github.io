@@ -204,5 +204,5 @@ I was able to re-create the zoo monitoring project using C++ and SQLite. I was a
 
 [Enhanced Zoo Monitoring System](https://github.com/sjpri/sjpri.github.io/tree/main/Enhanced%20Zoo%20Monitoring%20System/improvedZooMonitor)
 
-[<img width="1022" alt="thumbnail" src="https://user-images.githubusercontent.com/72842600/232323894-df4add6e-7838-4c8a-b0ea-429d70bb7206.png">](https://youtu.be/_ng8FLcIDg8 "Improved Zoo Monitoring System")
+[<img width="960" alt="thumbnail" src="https://user-images.githubusercontent.com/72842600/232323894-df4add6e-7838-4c8a-b0ea-429d70bb7206.png">](https://youtu.be/_ng8FLcIDg8 "Improved Zoo Monitoring System")
 
